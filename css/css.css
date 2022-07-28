@@ -1,0 +1,491 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body #divvvv {
+  width: 77%;
+  float: right;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 1200px) {
+  body #divvvv {
+    width: 100% !important;
+  }
+}
+
+header {
+  width: 77%;
+  float: right;
+}
+@media screen and (max-width: 1300px) {
+  header {
+    width: 100%;
+  }
+}
+header #div1 {
+  margin-top: -750px;
+}
+@media screen and (max-width: 992px) {
+  header #div1 {
+    margin-top: -550px;
+    margin-left: 50px !important;
+  }
+  header #div1 h1 {
+    font-size: 20pt !important;
+  }
+  header #div1 p {
+    font-size: 15pt !important;
+    margin-left: 150px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  header #div1 {
+    margin-top: -300px !important;
+    margin-left: -50px !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  header #div1 {
+    margin-top: -250px !important;
+    margin-left: -100px !important;
+  }
+}
+header #div1 h1 {
+  margin-left: 150px;
+  color: white;
+  font-size: 45pt;
+}
+header #div1 p {
+  font-size: 30px;
+  color: white;
+  margin-left: 200px;
+}
+
+main {
+  width: 77%;
+  float: right;
+}
+@media screen and (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+}
+main #About .dd {
+  margin-top: 50px;
+}
+main #About .dd h1 {
+  color: #252b4def;
+}
+main #About .dd u {
+  color: blue;
+}
+main #About h2 {
+  color: #003366;
+}
+main #About .ss h1 {
+  font-size: 13pt;
+  margin-top: 20px;
+}
+main #About .ss h1 a {
+  cursor: ns-resize;
+  font-size: 13pt !important;
+}
+main #div2 {
+  margin-top: 100px;
+}
+main #div2 .row .div h1 {
+  color: #252b4def;
+}
+main #div2 .row .div u {
+  color: blue;
+}
+main #div2 .row .col-xl-3 {
+  height: 160px;
+}
+main #div2 .row .col-xl-3 h1 p i {
+  color: #149ddd;
+}
+main #div2 .row .col-xl-3 p {
+  width: 65%;
+}
+main #div3 {
+  margin-top: 100px;
+  background-color: #f5f8fd;
+}
+main #div3 .row .dv h1 {
+  color: #252b4def;
+}
+main #div3 .row .dv u {
+  color: blue;
+}
+main #div3 .progress {
+  border-radius: 0px solid;
+}
+main #s1 {
+  margin-top: 100px;
+}
+main #s1 .row .div h1 {
+  color: #252b4def;
+}
+main #s1 .row .div u {
+  color: blue;
+}
+main #s1 .row .col-xl-6 h1 {
+  font-size: 20pt;
+}
+main #s1 .row .col-xl-6 h2 {
+  font-size: 15pt;
+}
+main #s1 .row .col-xl-6 li {
+  margin-top: 20px;
+}
+main #s1 .row .col-xl-6 .div0 .d {
+  width: 150px;
+  height: 40px;
+  background-color: #bfbfd8;
+}
+main #s1 .row .col-xl-6 .div0 .d p {
+  margin-left: 40pt;
+}
+main #s1 .row .col-xl-6 .div1 .d1 {
+  width: 150px;
+  height: 40px;
+  background-color: #bfbfd8;
+}
+main #s1 .row .col-xl-6 .div1 .d1 p {
+  margin-left: 40pt;
+}
+main #s1 .row .col-xl-6 .div2 .d1 {
+  width: 150px;
+  height: 40px;
+  background-color: #bfbfd8;
+}
+main #s1 .row .col-xl-6 .div2 .d1 p {
+  margin-left: 10pt;
+}
+main #s2 {
+  margin-top: 150px;
+  background-color: #f5f8fd;
+}
+main #s2 .container .row .div h1 {
+  color: #252b4def;
+}
+main #s2 .container .row .div u {
+  color: blue;
+}
+main #s2 .container .row .dd ul {
+  margin-left: 390px;
+  margin-top: 50px;
+  align-items: center;
+}
+@media screen and (max-width: 568px) {
+  main #s2 .container .row .dd ul {
+    margin-left: -3px;
+  }
+}
+main #s2 .container .row .dd ul a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+@media screen and (max-width: 350px) {
+  main #s2 .container .row .dd ul a {
+    margin-left: 15px !important;
+  }
+}
+main #s2 .container .row .dd ul a:hover {
+  color: #149ddd;
+}
+main #s2 .container .row .col-xl-4 {
+  margin-top: 50px;
+}
+main #s3 {
+  margin-top: 100px;
+}
+main #s3 .container .row .div h1 {
+  color: #252b4def;
+}
+main #s3 .container .row .div u {
+  color: blue;
+}
+main #s3 .container .row .div p {
+  margin-top: 50px;
+}
+main #s3 .container .row .d:hover button {
+  background-color: white;
+  color: #149ddd;
+  border: 1px solid #149ddd;
+}
+main #s3 .container .row .d button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #149ddd;
+  color: white;
+  border: 0px solid;
+}
+main #s3 .container .row .d a {
+  text-decoration: none;
+}
+main #s3 .container .row .d a h1 {
+  color: #050d18;
+  font-size: 15pt;
+  margin-left: 70px;
+  margin-top: -50px;
+}
+main #s3 .container .row .d a h1:hover {
+  color: #149ddd;
+}
+main #s3 .container .row .d .p {
+  margin-left: 70px;
+  margin-top: 0px;
+}
+main #Testimonials {
+  background-color: #f5f8fd;
+}
+main #Testimonials .div1 {
+  margin-top: 100px;
+}
+main #Testimonials .div1 h1 {
+  color: #252b4def;
+}
+main #Testimonials .div1 u {
+  color: blue;
+}
+main #Testimonials .row {
+  align-items: center;
+}
+main #Testimonials .row .d {
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  main #Testimonials .row .d img {
+    margin-left: 150px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  main #Testimonials .row .d .img {
+    margin-left: 0px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  main #Testimonials .row .d img {
+    margin-left: 400px !important;
+  }
+  main #Testimonials .row .d h1 {
+    margin-left: 370px !important;
+  }
+  main #Testimonials .row .d button {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 568px) {
+  main #Testimonials .row .d button {
+    height: 320px;
+  }
+  main #Testimonials .row .d img {
+    margin-left: 150px !important;
+    margin-top: 300px !important;
+  }
+  main #Testimonials .row .d h1 {
+    margin-left: 0px !important;
+  }
+}
+main #Testimonials .row .d img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+main #Testimonials .row .d h1 {
+  font-size: 20pt;
+}
+main #Testimonials .row .d button {
+  border: 0px solid;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 5px;
+}
+main #s4 .container .div h1 {
+  color: #252b4def;
+}
+main #s4 .container .div u {
+  color: blue;
+}
+main #s4 .row {
+  height: 750px;
+}
+main #s4 .row .dv {
+  height: 700px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+main #s4 .row .dv button {
+  width: 40px;
+  height: 40px;
+  border: 0px solid;
+  border-radius: 50%;
+  background-color: #74d2e7;
+  color: #00a4e4;
+  margin-top: 20px;
+}
+main #s4 .row .dv button:hover {
+  background-color: #00a4e4;
+  color: white;
+}
+main #s4 .row .dv button p {
+  font-size: 15pt;
+  margin-top: 5px;
+}
+main #s4 .row .dv h1 {
+  font-size: 20pt;
+  margin-left: 60px;
+  margin-top: -50px;
+}
+main #s4 .row .dv .p {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+main #s4 .row .d1 {
+  height: 700px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
+  main #s4 .row .d1 {
+    margin-top: 20px;
+    margin-left: 0px !important;
+  }
+  main #s4 .row .d1 .btn {
+    margin-left: 270px !important;
+  }
+}
+@media screen and (max-width: 568px) {
+  main #s4 .row .d1 .btn {
+    margin-left: 0px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  main #s4 .row .d1 .btn {
+    margin-left: 200px !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  main #s4 .row .d1 .btn {
+    margin-left: 0px !important;
+    margin-top: 5px !important;
+  }
+  main #s4 .row .d1 .btn {
+    width: 100%;
+    margin-top: 0px !important;
+  }
+}
+
+footer {
+  width: 310px;
+  height: 670px;
+  background-color: #040b14;
+  float: left;
+  position: fixed;
+}
+@media screen and (max-width: 1200px) {
+  footer {
+    display: none;
+  }
+}
+footer img {
+  width: 130px;
+  height: 130px;
+  margin-left: 85px;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 10px solid #464646;
+}
+footer h1 {
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+}
+footer .b {
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: #007dc3;
+  position: absolute;
+  margin-left: 500px;
+  margin-left: 100px;
+}
+footer .b a i {
+  color: white;
+}
+@media screen and (min-width: 1200px) {
+  footer .b {
+    display: none;
+  }
+}
+footer .d {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+footer .d button {
+  width: 35px;
+  height: 40px;
+  margin-left: 8px;
+  border-radius: 50%;
+  background-color: #464646;
+  border: 0px solid;
+  margin-top: -20px;
+}
+footer .d button:hover {
+  background-color: #007dc3;
+}
+footer .d button a {
+  color: white;
+  opacity: 1;
+}
+footer .d1 {
+  margin-top: 20px;
+}
+footer .d1 a .btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0px;
+  background-color: #007dc3;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 1270px;
+}
+footer .d1 a .btn i {
+  color: white;
+  font-size: 17pt;
+}
+footer .d1 ul li {
+  list-style: none;
+  margin-top: 35px;
+}
+footer .d1 ul li i {
+  font-size: 20px;
+}
+footer .d1 ul li span:hover {
+  color: white;
+}
+footer .d1 ul li a {
+  text-decoration: none;
+  color: #777777;
+}
+footer .d1 ul li a:hover {
+  color: #007dc3;
+}
+footer .d1 ul p {
+  margin-left: 50px;
+  margin-top: 40px;
+  color: white;
+}
+footer .d1 ul p a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=css.css.map */
